@@ -20,15 +20,15 @@ var shakti_cup;
 var shakti2;
 var football;
 var text;
-var spoj_url="http://www.spoj.com/users/prateek27/";
-var hackerearth_url="https://www.hackerearth.com/users/prateekrishu1/";
-var codechef_url="https://www.codechef.com/users/prateek27";
-var github_url="https://github.com/prateek27";
-var facebook_url="https://www.facebook.com/prateek.narang.756";
-var linkedin_url="https://in.linkedin.com/pub/prateek-narang/9a/8b3/10";
-var resume_url="http://www.prateeknarang.com/resume.pdf";
-var website_url="http://www.prateeknarang.com";
-var gmail_url="";
+var spoj_url="http://www.spoj.com/users/nobbie/";
+var hackerearth_url="https://www.hackerearth.com/@viksrathore2016";
+var codechef_url="https://www.codechef.com/users/cross_theta";
+var github_url="https://github.com/vikramcs";
+var facebook_url="https://www.facebook.com/girish.rawal.7543";
+var linkedin_url="https://www.linkedin.com/in/vikram-kumar-505349152/";
+var resume_url="https://drive.google.com/open?id=126LkYtFMe4TAsQRjq0gzM2YNYnl_t-ak";
+var website_url="https://codepen.io/vikram1/project/full/AYwjBx";
+var gmail_url="viksrathore2016@gmail.com";
 var inst_text;
 var bug;
 var bug_tween;
@@ -304,9 +304,9 @@ function create(){
 
 
 	var style = { font: "16px monospace", fill: "#fff", align: "center" };
-	game.add.text(2930,h-250,"Class 10th \n 10.0/10.0 CGPA \n School Topper", style);
-	game.add.text(3330,h-280,"Class 12th \n 95.2 % marks \n CBSE Board ", style);
-	game.add.text(3700,h-320,"JEE Mains \n All India Rank 489 \n 13th in Punjab \n\n 1st in DTU \n(University Rank Opener)", style);
+	game.add.text(2930,h-250,"Class 10th \n 76%", style);
+	game.add.text(3330,h-280,"Class 12th \n 83.60 % marks \n RBSE Board \n School Topper", style);
+	game.add.text(3700,h-320,"Microsoft Intern \n Google Summer of Code \n Google India Scholar \n\n 2nd in State Science Seminar", style);
 	//Add Ground and Grass
 	var ground = game.add.tileSprite(0,h-100,platformLength*2,2000,'ground');
 	ground.scale.setTo(0.5,0.5);
@@ -419,20 +419,20 @@ function create(){
 	game.add.sprite(11300,h-485,'frog').scale.setTo(1.3,1.3);
 
 	//Add logos
-	game.add.sprite(10010,h-210,'campk12Logo').scale.setTo(0.75,0.75);
-	game.add.sprite(10310,h-230,'instaLogo');
-	game.add.sprite(10620,h-235,'hackerearthLogo').scale.setTo(0.48,0.48);
-	game.add.sprite(10970,h-280,'sandiskLogo');
-	game.add.sprite(11320,h-300,'cbLogo').scale.setTo(0.6,0.6);
+	game.add.sprite(10010,h-210,'microsoft').scale.setTo(0.75,0.75);
+	game.add.sprite(10310,h-230,'google');
+	game.add.sprite(10620,h-235,'udacity').scale.setTo(0.48,0.48);
+	game.add.sprite(10970,h-280,'iit');
+	game.add.sprite(11320,h-300,'learnx').scale.setTo(0.6,0.6);
 
 	//Add company texts.
 	var style_ex = {font:"16px Arial",fill:orange,align:"center"};
 	var style_exS = {font:"12px Arial",fill:orange,align:"center"};
-	game.add.text(10080,h-210,"Camp K-12, Delhi \n Sept-Oct 2013 \n Design Instructor",style_exS);
-	game.add.text(10390,h-220,"InstaLabs, Gurgaon \n June-July 2014 \n Android Developer",style_exS);
-	game.add.text(10700,h-230,"HackerEarth\n March-April 2015 \n Problem Setter",style_ex); 
-	game.add.text(11000,h-250,"Bangalore \n June-July 2015 \n Firmware Developer\n Intern",style_ex);
-	game.add.text(11420,h-290,"Coding Blocks,Delhi \n Aug'15-Nov'15 \n C++ Course Instructor",style_ex);
+	game.add.text(10080,h-210,"Winter Internship \n Dec-Jan 2018 \n Machine Learning",style_exS);
+	game.add.text(10390,h-220,"Google Assistant Developer",style_exS);
+	game.add.text(10700,h-230,"Google-India Scholarship\n Feb-Dec 2018 \n Scholarship Holder",style_ex); 
+	game.add.text(11000,h-250,"Campus Ambessdor \n June-July 2018",style_ex);
+	game.add.text(11420,h-290,"Learnx Technologies \n Aug'19-present \n Teaching Assistant ",style_ex);
 
 	var pd = game.add.sprite(10875,h-220,'sandiskPd');
 	pd.scale.setTo(1.2,1.2);
@@ -440,7 +440,7 @@ function create(){
 
 	//Add projects
 	game.add.sprite(12200,h-370,'games');
-	game.add.text(12280,h-430,"Developed Web & Android Games\n 500-1000 Downloads \n Rated 4.8/5.0 on Google Play",style_white);
+	game.add.text(12280,h-430,"Developed Web & Android Games",style_white);
 
 	game.add.sprite(12760,h-250,'gamershq');
 	game.add.text(12750,h-380,"Developed a gaming portal \n with frontend & backend \n to host and play games",style_white);
@@ -460,7 +460,7 @@ function create(){
 	ambu.scale.setTo(0.8,0.8);
 	var t = game.add.tween(ambu).to( { x:14400,}, 2000, Phaser.Easing.Back.InOut, true, 0, 2000, true);
 	t.start();
-	game.add.text(14240,h-370,"Worked in a team \nto develop Smart Hospital Management \n System for Kalpvriksh Hospital.",style_white);
+	game.add.text(14240,h-370,"Worked in a team \nto develop Smart Hospital Management",style_white);
 
 
 	game.add.sprite(14800,h-420,'otherprojects');
@@ -471,7 +471,7 @@ function create(){
 	shakti.scale.setTo(0.6,0.6);
 	shakti_cup = game.add.sprite(base5+500,-500,'cup');
 	shakti_cup.scale.setTo(0.5,0.5);
-	game.add.text(base5+505,h-300,"Best Cartoonist Award \n\n Won several Dist Level\nCartooning,Painting \n & Quiz Competitions. ",style_white);
+	game.add.text(base5+505,h-300,"Intern of the Year \n\n Microsoft",style_white);
 	
 	//game.add.tileSprite(15720,h-300,100,300'brick');
 
@@ -481,13 +481,13 @@ function create(){
 	cup1 = game.add.sprite(base5+820+200,-280,'cup');
 	cup1.scale.setTo(0.6,0.6);
 	game.add.sprite(base5+1190,h-330,'google');
-	game.add.text(base5+1180,h-250,"Hackathon \n 3rd Runner up\n Developed a Game\n in DART",style_position);
+	game.add.text(base5+1180,h-250,"Hackathon \n 3rd Runner up\n Developed a Game\n in nodeJs",style_position);
 
 	
 	cup2=game.add.sprite(base5+1400,-340,'cup');
 	cup2.scale.setTo(0.8,0.8);
 	game.add.sprite(base5+1630,h-390,'csi');
-	game.add.text(base5+1580,h-250,"2nd in Spython \nGame Development\n Challenge",style_position);
+	game.add.text(base5+1580,h-250,"2nd in Spython \nmachine learning\n Challenge",style_position);
 
 	
 
@@ -521,14 +521,14 @@ function create(){
 	cup5=game.add.sprite(base5+3000,h-400,'cup');
 	cup5=game.add.sprite(base5+3200,h-350,'building').scale.setTo(0.5,0.5);
 	
-	game.add.text(base5+3250,h-470,"Winner \nSmart City Hackathon \nat PEC (Nov'15)",{font:"30px Arial",fill:"#fff",align:"center"});
+	game.add.text(base5+3250,h-470,"Winner \nSmart City Hackathon \nat PEC (Nov'18)",{font:"30px Arial",fill:"#fff",align:"center"});
 
 	game.add.sprite(base5+3670,h-310,'icpc');
 	game.add.text(base5+3650,h-470,"Qualified for \nACM-ICPC \nChennai Regionals 2015\n(Team AIR 62) !",{font:"30px Arial",fill:"#fff",align:"center"});
 
 	//Add other highlights
 	game.add.sprite(base6+600,h-240,'chai');
-	game.add.text(base6+600,h-330,"Host:Chai Pe Charcha \n with NaMO & 'Mere \nSapno Ka Bharat'.",style_white);
+	game.add.text(base6+600,h-330,"Chai Pe Charcha \n with NaMO & 'Mere \nSapno Ka Bharat'.",style_white);
 	shakti2 = game.add.sprite(base6+930,-500,'pshaktiman');
 	shakti2.scale.setTo(0.75,0.75);
 	game.add.text(base6+900,h-430,"Sports Lover",style_white);
